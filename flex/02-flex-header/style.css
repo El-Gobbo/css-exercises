@@ -3,22 +3,28 @@
   background: papayawhip;
   display:flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 ul {
   padding-left: 0;
-  align-items:center;
+
 }
 
 .left-links ul {
   display: flex;
   flex: auto;
+  gap: 5px;
 }
 
+.right-links {
+  align-items: center;
+}
 
 .right-links ul {
   display: flex;
   flex: auto;
+  gap: 5px;
 }
 
 .logo {
